@@ -1,0 +1,14 @@
+{
+  "cloudantNoSQLDB": {
+    "name": "Cloudant NoSQL DB-zg",
+    "label": "cloudantNoSQLDB",
+    "plan": "Shared",
+    "credentials": {
+      "username": "d1c27764-9bc0-4432-bac4-b3bb6d5eb65d-bluemix",
+      "password": "69bf0b9f81bad6a751362dd8b47ee10358c3dd636b3db7ac830c8e4bf7f69c43",
+      "host": "d1c27764-9bc0-4432-bac4-b3bb6d5eb65d-bluemix.cloudant.com",
+      "port": 443,
+      "url": "https://d1c27764-9bc0-4432-bac4-b3bb6d5eb65d-bluemix:69bf0b9f81bad6a751362dd8b47ee10358c3dd636b3db7ac830c8e4bf7f69c43@d1c27764-9bc0-4432-bac4-b3bb6d5eb65d-bluemix.cloudant.com"
+    }
+  }
+}

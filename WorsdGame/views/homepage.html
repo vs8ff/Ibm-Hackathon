@@ -1,0 +1,88 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Home Page</title>
+</head>
+<style>
+#maindiv
+{
+margin-left: auto;
+margin-right: auto;
+margin-top:20px;
+height:auto;
+width:auto;
+
+background-color:#B8860B;
+
+}
+table.pic {
+    border-spacing: 1;
+    }
+    table.pic td {
+    padding: 5px;
+    border: 4px solid #cccccc;
+    }
+    table.pic tr:nth-child(odd) {
+    background-color: #f2f2f2;
+        }
+
+    table.pic div {
+        display:table-cell; 
+        vertical-align:middle;
+    }
+	#mar{
+background-color:#808000;
+font-size:15px;
+cursor:pointer;
+font-weight:bold;
+}
+#footer {
+height:30px;
+margin: 0;
+clear: both;
+width:100%;
+position: relative;
+background-color:#808000;
+
+}
+</style>
+<script type="text/javascript">
+function fun1()
+{
+window.location();
+}
+function fun2()
+{
+window.location();
+}
+</script>
+<body>
+<div id="maindiv">
+<marquee id='mar' behavior="scroll" scrollamount="5" onmouseover="this.stop()" onmouseout="this.start()">
+<h2>Welcome to Skill Development Application</h2></marquee>
+
+<div>
+<table class="pic" style="width: 100%;">
+<tbody>
+<tr>
+<td width="70%"><img src="puzzle.jpg" alt="" width="850" height="218" /></td>
+<td>
+<input type="button" value="Click to play word-puzzle game" style="display: block; margin: 0 auto;" onclick="fun1()">
+</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td width="70%"><img src="typing-test.jpg" alt="" width="850" height="218" /></td>
+<td>
+<input type="button" value="Click to play typing game" style="display: block; margin: 0 auto;" onclick="fun2()">
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="footer">
+<p align="center">&copy; PG11</p>
+</div>
+</div>
+</body>
+</html>
